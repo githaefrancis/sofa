@@ -1,0 +1,78 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.sofa {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 60px;
+}
+
+.intro_title {
+  text-align: center;
+}
+.intro_title p {
+  border-top: 4px solid rgb(228, 221, 221);
+  border-bottom: 4px solid rgb(228, 221, 221);
+  height: 50px;
+  padding-top: 40px; 
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.software p,
+.design p,
+.company p,
+.blog p {
+  width: 60%;
+}
+.footer img {
+  height:24px;
+  transform:translate(0%,25%)
+}
+
+.footer{text-align: center;}
+
+#copyright{
+  padding-top:40px;
+}
+
+@media only screen and (max-width:800px){
+  .services{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  }
+
+@media only screen and (max-width:400px)
+
+{
+.services{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.software ,.design ,.company,.blog {
+  
+  transform:translate(15%,0%);
+  
+}
+.sofa {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 60px;
+}
+.intro_title p {
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+}
+

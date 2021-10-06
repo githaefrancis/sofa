@@ -50,6 +50,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .intro_title p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
